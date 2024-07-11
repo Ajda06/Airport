@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Airport.Models
 {
-    public class Ticket
+    public class Seat
     {
-        public int TicketID { get; set; }
+        public int SeatID { get; set; }
         public int FlightID { get; set; }
-        public int CustomerID { get; set; }
-        public decimal Price { get; set; }
-        public Flight Flight { get; set; }
+        public int SeatNumber { get; set; }
+        public int PassengerID { get; set; }
         
     }
 }
